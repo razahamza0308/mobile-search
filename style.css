@@ -1,0 +1,65 @@
+body{
+    background-color: green;
+}
+
+figure{
+    display: inline-block;
+}
+img{
+    width: 300px;
+    border: 10px solid green;
+}
+figcaption{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(233, 230, 236);
+    padding: 10px;
+    border: 5px solid rgb(51, 172, 40);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+input{
+    width: 100%;
+    border: 2px solid black;
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    margin: 5px auto;
+}
+input:focus{
+    outline: none;
+    border: 3px solid black;
+}
+.inputDiv{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.buttonsDiv>button{
+    
+    border: 2px solid black;
+    padding: 10px;
+}
+.buttonsDiv>button:focus{
+    border: none;
+}
+h1{
+    display: inline-table;
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+}
+.mainDivSearch{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.discription{
+    margin-top: 10px;
+}
+    
